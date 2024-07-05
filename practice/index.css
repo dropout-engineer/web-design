@@ -1,0 +1,139 @@
+:root {
+  --a4C5FD5: #4c5fd5;
+  --dadbf1: #dadbf1;
+  --b000000: #000000;
+  --fff: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: var(--b000000);
+  color: var(--fff);
+  height: 98px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 161px;
+  height: 98px;
+}
+
+.logo h4 {
+  font-size: 28px;
+  margin-right: 12px;
+}
+
+.help h4 {
+  font-size: 28px;
+  margin-left: 12px;
+  font-weight: 300;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 131px;
+  height: 98px;
+}
+
+.sign-in {
+  background-color: var(--a4C5FD5);
+  color: white;
+  width: 158px;
+  font-size: 26px;
+  padding: 13px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  transition: all ease 0.4s;
+}
+
+.sign-in:hover{
+    background-color: var(--fff);
+    color: var(--b000000);
+}
+
+.submit-button{
+    font-size: 26px;
+    margin-right: 17px;
+    background-color: transparent;
+    color: var(--fff);
+    padding: 12px 23px;
+    border: 1px solid var(--fff);
+    border-radius: 10px;
+}
+
+
+
+/* search Box */
+
+.search-section{
+    background-color: var(--dadbf1);
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.help h1{
+  font-size: 90px;
+  font-weight: 500;
+  color: var(--b000000);
+}
+
+.search-box{
+  width: 800px;
+  max-width: 100%;
+  position: relative;
+}
+
+.search-box input{
+  background-color: var(--fff);
+  width: 100%;
+  padding: 22px 20px;
+  margin-top: 35px;
+  border: 1px solid var(--b000000);
+  border-radius: 5px;
+  font-size: 22px;
+}
+
+.search-box input::placeholder{
+  font-size: 25px;
+}
+
+.search-box button{
+  background-color: var(--fff); 
+  border-radius: 50%;
+  height: 50%;
+  aspect-ratio: 1;
+  position: absolute;
+  right: 0;
+  top: 49px;
+  font-size: 40px;
+  border: none;
+  background-color: transparent;
+}
+
+
+
+/* Main */
+
+.container{
+  margin: 120px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

@@ -1,0 +1,191 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --Almost_White: hsl(0, 0%, 98%);
+    --Medium_Gray: hsl(0, 0%, 41%);
+    --Almost_Black: hsl(0, 0%, 8%);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Epilogue", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+/*...................
+    HEADER
+.....................*/
+
+.header{
+    height: 9.6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 27rem;
+}
+
+.nav-link{
+    color: var(--Medium_Gray);
+    transition: all 0.3s ease-out;
+}
+
+.nav-link:hover{
+    color: var(--Almost_Black);
+    font-weight: 500;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.2rem;
+    font-size: 1.7rem;
+}
+
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-register{
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.2rem;
+    margin-right: 5rem;
+}
+
+.register{
+    padding: 1.2rem 2rem;
+    border: 1px solid var(--Almost_Black);
+    border-radius: 1.4rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.register:hover{
+    color: var(--Almost_Black);
+    border: 2px solid var(--Almost_Black);
+    border-radius: 1.4rem;
+}
+
+.logo{
+    font-size: 4.1rem;
+    margin-left: 3.5rem;
+    font-weight: 700;
+    color: var(--Almost_Black);
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+/*...................
+    MAIN
+.....................*/
+
+.main{
+    padding: 10rem;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.heading{
+    font-size: 5.3rem;
+    color: var(--Almost_Black);
+    margin: 8rem 0 4rem;
+}
+
+.para{
+    font-size: 1.8rem;
+    color: var(--Medium_Gray);
+    margin-bottom: 3.8rem;
+    font-weight: 500;
+}
+
+.learn-more{
+    font-size: 1.8rem;
+}
+
+.learn{
+    color: var(--Almost_White);
+    background-color: var(--Almost_Black);
+    padding: 1.7rem 2.2rem;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.learn:hover{
+    background-color: var(--Almost_White);
+    color: var(--Almost_Black);
+    border: 1px solid var(--Almost_Black);
+    font-weight: bold;
+}
+
+.left-side{
+    height: 80%;
+    padding: 4rem;
+}
+
+.right-side{
+    height: 80%;
+}
+
+.right-side img{
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    object-position: 50px;
+    margin-left: 7.5rem;
+}
+
+
+
+/*...................
+    footer
+.....................*/
+
+
+.footer{
+    margin-top: 14rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 4.3rem;
+}

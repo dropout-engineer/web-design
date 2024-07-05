@@ -1,0 +1,5 @@
+name: 'John',
+	// age: 30,
+	// isAdmin: false,
+	// courses: ['html', 'css', 'js'],
+	// spouse: null,

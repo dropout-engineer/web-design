@@ -1,0 +1,14 @@
+body{
+    font-size: 1.5em;
+    margin: 15px;
+}
+
+.current-topic{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
