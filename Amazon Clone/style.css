@@ -4,6 +4,56 @@
     box-sizing: border-box;
 }
 
-header{
+.nav-link{
+    color: white;
+}
+
+.logo img{
+    margin-top: 10px;
+}
+
+.navbar-nav{
+    height: 51px;
+}
+
+.nav-belt{
     background-color: #131921;
+}
+
+.mynav-main{
+    background-color: #232f3e;
+}
+
+
+
+.deliver{
+    font-size: 13px;
+    color: #cccccc;
+}
+
+.india{
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: -7px;
+}
+
+.btn{
+    background-color: #d6d6d6;
+    font-size: 14px;
+}
+
+.dropdown > a:hover{
+    background-color: #d6d6d6;
+    color: black;
+}
+
+
+
+.dropdown > a{
+    border-radius: 5px 0 0 5px;
+    height: 45px;
+}
+
+.search > form > input{
+    height: 45px;
 }
