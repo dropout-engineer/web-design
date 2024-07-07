@@ -52,8 +52,26 @@
 .dropdown > a{
     border-radius: 5px 0 0 5px;
     height: 45px;
+    border-right: 1px solid #adabab;
 }
 
 .search > form > input{
     height: 45px;
+    border-radius: 0;
+    width: 890px;
+}
+
+.search > form > button {
+    margin: 0 0 0 -8px;
+    border-radius: 0 5px 5px 0;
+    height: 45px;
+    background-color: #febd69;
+}
+
+.search > form > button:hover{
+    background-color: #f08804;
+}
+
+.search > form > button > i{
+    font-size: 23px;
 }
