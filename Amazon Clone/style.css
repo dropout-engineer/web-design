@@ -37,22 +37,24 @@
     margin-top: -7px;
 }
 
-.btn{
+.search > .dropdown > .btn{
     background-color: #d6d6d6;
     font-size: 14px;
 }
 
-.dropdown > a:hover{
+.search > .dropdown > a:hover{
     background-color: #d6d6d6;
     color: black;
 }
 
 
 
-.dropdown > a{
+.search > .dropdown > a{
     border-radius: 5px 0 0 5px;
     height: 45px;
     border-right: 1px solid #adabab;
+    border: 0;
+    box-shadow: none;
 }
 
 .search > form > input{
@@ -74,4 +76,15 @@
 
 .search > form > button > i{
     font-size: 23px;
+}
+
+.lang > .dropdown > .btn{
+    background-color: transparent;
+    color: white;
+}
+
+.lang > .dropdown > .dropdown-toggle{
+    border: 0;
+    box-shadow: none;
+    margin-left: 22px;
 }
