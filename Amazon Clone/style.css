@@ -91,6 +91,7 @@
 .sign-in{
     position: relative;
     margin-top: 14px;
+    margin: 0 0 0 2px;
 }
 
 .sign-in span{
@@ -111,4 +112,31 @@
     border: 0;
     box-shadow: none;
     color: white;
+}
+
+.return-order{
+    color: white;
+}
+
+.return-order > .return{
+    font-size: 12px;
+    bottom: 18px;
+}
+
+.cart{
+    margin-left: 18px;
+}
+
+.cart .count{
+    left: 25px;
+    top: 8px;
+    color: #f08804;
+    font-weight: 700;
+}
+
+.cart  p{
+    color: white;
+    font-weight: 700;
+    top: 24px;
+    left: 46px;
 }
