@@ -140,3 +140,22 @@
     top: 24px;
     left: 46px;
 }
+
+
+
+/* lower Navb-bar */
+
+.lower-nav{
+    background-color: #232f3e;
+    height: 43px;
+}
+
+.lower-nav > a > i,
+.lower-nav > a > span{
+    color: white;
+    font-size: 18px;
+}
+
+.my-lower-nav .navbar-nav a{
+    color: white;
+}
