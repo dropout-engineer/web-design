@@ -141,8 +141,6 @@
 
 // })
 
-// console.log(myPromise)
-// console.log('Program in progress...')
 
 // myPromise.then(() => {
 //     console.log('Step 1 complete')
